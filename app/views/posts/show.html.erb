@@ -1,4 +1,6 @@
-<div class="container insta-image">
+<div class="insta-image">
   <%= image_tag(@post.image.url(:medium)) %> <br>
 </div>
-<%= @post.descrition %>
+<div class="text-center insta-text">
+  <%= @post.descrition %>
+</div>
