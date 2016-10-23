@@ -17,8 +17,29 @@
  @import "bootstrap";
 
  body {
-     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
- }
+  padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+  background: #d3d3d3;
+}
+
+.insta-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  background: #ffffff;
+}
+
+.insta-image {
+  background: #d3d3d3;
+}
+
+.insta-text {
+  margin-top: -50px;
+}
 
  @media(min-width:768px) {
      body {
